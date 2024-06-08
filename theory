@@ -1,0 +1,23 @@
+BACKEND:-
+1. npm i ts-node typescript nodemon @types/express @types/cors @types/node --save-dev
+2. npx tsc --init
+
+FRONTEND:-
+1. npm create vite@latest
+2. npm install -D tailwindcss postcss autoprefixer
+3. npx tailwindcss init -p
+4. paste this in tsconfig.json
+"baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+}
+follow this documentation link:- https://ui.shadcn.com/docs/installation/vite
+5. we are using lucide-react for icons
+
+6. auth0:- go to auth0.com and create an application there
+:- npm i @auth0/auth0-react (in frontend folder)
+
+
+last watch:- 1:58:00
